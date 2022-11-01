@@ -1,0 +1,19 @@
+<Device Model="CP4">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="HZ-KPCN" DeviceId="25" Name="DAI 3"/>
+      <Device Model="HZ-KPCN" DeviceId="26" Name="DAI 2"/>
+      <Device Model="HZ-KPCN" DeviceId="27" Name="DAI 1"/>
+      <Device Model="DIN-8SW8-I" DeviceId="92" Name="A"/>
+      <Device Model="DIN-8SW8-I" DeviceId="93" Name="B"/>
+      <Device Model="DIN-8SW8-I" DeviceId="94" Name="C"/>
+      <Device Model="DIN-8SW8-I" DeviceId="95" Name="Amplifier"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="97" Name="DAI 3"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="98" Name="DAI 2"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="99" Name="DAI 1"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="TS-770" DeviceId="04"/>
+      <Device Model="HD-MD4X2-4K-E" DeviceId="05" Name="PTZ CAMERA SWITCHER"/>
+      <Device Model="Core3 UI XPanel" DeviceId="0B" Name="XPanel 2.0 Smart Graphics"/>
+   </Network>
+</Device>
